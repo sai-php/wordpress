@@ -39,7 +39,7 @@ class Wpdagger
         string $phpVersion = '8.4',
         #[Doc('WordPress version to install')]
         string $wordpressVersion = '7.1.3',
-    ): Container {
+    ): WPContainer {
 
         $php = dag()
             ->sai()
@@ -62,13 +62,15 @@ class Wpdagger
         $php = $this->configurePHP($php);
         $php = $this->addWordPress($php, $wordpress);
 
-        return $php
+        $php = $php
             ->withWorkdir('/var/www/html')
             ->withDirectory('/var/www/html/wp-content', $contentDir, owner: 'www-data:www-data', permissions: 0o1777)
             ->withFile('/usr/local/bin/docker-entrypoint.sh', $this->getFile('docker-entrypoint.sh'), permissions: 0o755)
             ->withSymlink('/usr/local/bin/docker-entrypoint.sh', '/usr/local/bin/docker-ensure-installed.sh')
             ->withEntrypoint(['docker-entrypoint.sh'])
             ->withDefaultArgs(['apache2-foreground']);
+
+        return new WPContainer($php);
     }
 
     private function getFile(string $name): File
