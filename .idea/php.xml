@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/dagger/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/dagger/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/dagger/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/dagger/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/dagger/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/dagger/vendor/composer" />
+      <path value="$PROJECT_DIR$/dagger/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/dagger/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/dagger/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/polyfill-php82" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/dagger/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/dagger/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/dagger/vendor/webonyx/graphql-php" />
+      <path value="$PROJECT_DIR$/dagger/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/dagger/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/dagger/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/dagger/vendor/carnage/php-graphql-client" />
+      <path value="$PROJECT_DIR$/dagger/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/dagger/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/dagger/vendor/roave/better-reflection" />
+      <path value="$PROJECT_DIR$/dagger/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/dagger/vendor/nette/php-generator" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

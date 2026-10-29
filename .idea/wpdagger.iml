@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dagger/sdk/generated" isTestSource="false" packagePrefix="Dagger\" />
+      <sourceFolder url="file://$MODULE_DIR$/dagger/sdk/src" isTestSource="false" packagePrefix="Dagger\" />
+      <sourceFolder url="file://$MODULE_DIR$/dagger/sdk/tests" isTestSource="true" packagePrefix="Dagger\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/dagger/src" isTestSource="false" packagePrefix="DaggerModule\" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/carnage/php-graphql-client" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/dagger/dagger" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/jms/metadata" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/jms/serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/nette/php-generator" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/phpstan/phpdoc-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/roave/better-reflection" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/polyfill-php82" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/dagger/vendor/webonyx/graphql-php" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
