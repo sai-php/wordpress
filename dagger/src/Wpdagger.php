@@ -47,7 +47,9 @@ class Wpdagger
             ->withExtensions(['bcmath', 'exif', 'intl', 'mysqli', 'zip', 'gd', 'imagick'])
             ->container();
 
-        $wordpress = dag()->arc()->unarchive(dag()->http(sprintf(self::WORDPRESS_URL, $wordpressVersion)));
+        $wordpress = (new Tar(
+            dag()->http(sprintf(self::WORDPRESS_URL, $wordpressVersion))
+        ))->extract(gzip: true);
 
         $contentDir = dag()->directory();
 
