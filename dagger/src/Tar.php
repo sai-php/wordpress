@@ -31,9 +31,9 @@ class Tar
         ?int $stripComponents = null
     ): Directory {
         $compression = array_values(array_filter([
-            $gzip ? 'z' : null,
-            $bzip2 ? 'j' : null,
-            $xz ? 'J' : null,
+            $gzip ? '-z' : null,
+            $bzip2 ? '-j' : null,
+            $xz ? '-J' : null,
         ]));
 
         if (count($compression) > 1) {
